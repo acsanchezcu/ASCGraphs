@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6EDE3F7A5F4C93D56B401E190FB23341429E835E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6EDE3F7A5F4C93D56B401E190FB23341429E835E" : 0,
+    "B0F31A5F477FC83F9249872467FB789ECD144DF7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5CF728AE-63A6-4CDD-A6A3-BB7F77D03710",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6EDE3F7A5F4C93D56B401E190FB23341429E835E" : "Graphs\/",
+    "B0F31A5F477FC83F9249872467FB789ECD144DF7" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "graphs",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "graphs\/graphs.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/acsanchezcu\/ASCGraphs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6EDE3F7A5F4C93D56B401E190FB23341429E835E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/acsanchezcu\/viewpager.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B0F31A5F477FC83F9249872467FB789ECD144DF7"
+    }
+  ]
+}

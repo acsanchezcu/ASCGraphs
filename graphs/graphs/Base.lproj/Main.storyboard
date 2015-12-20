@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QL9-Xa-wZ9">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="1500"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIRST GRAPHIC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Gk-Sn-vGp">
+                                        <rect key="frame" x="20" y="100" width="560" height="19.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IEI-pV-8pB" customClass="ASCGraphView">
+                                        <rect key="frame" x="20" y="139" width="560" height="250"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="560" id="ZEq-o0-Rt5"/>
+                                            <constraint firstAttribute="height" constant="250" id="y1O-dW-OQ3"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iGraphViewType">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="sInformation">
+                                                <string key="value">[
+  {
+    "kGraphColor" : "#00FFA8",
+    "kGraphMaxValue" : 250,
+    "kGraphValue" : 40,
+    "kGraphTitle" : "First value"
+  },
+  {
+    "kGraphColor" : "#00FFA8",
+    "kGraphMaxValue" : 250,
+    "kGraphValue" : 120,
+    "kGraphTitle" : "Second value"
+  },
+  {
+    "kGraphColor" : "#ffb745",
+    "kGraphMaxValue" : 250,
+    "kGraphValue" : 250,
+    "kGraphTitle" : "Third value"
+  }
+]</string>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SECOND GRAPHIC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bs1-jP-JzR">
+                                        <rect key="frame" x="20" y="589" width="560" height="19.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Xl-0a-eDA" customClass="ASCGraphView">
+                                        <rect key="frame" x="20" y="628" width="560" height="150"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="Ayp-vJ-AM5"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iGraphViewType">
+                                                <integer key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="sInformation">
+                                                <string key="value">[
+  {
+    "kGraphColor" : "#00FFA8",
+    "kGraphMaxValue" : 250,
+    "kGraphValue" : 40,
+    "kGraphTitle" : "First value"
+  },
+  {
+    "kGraphColor" : "#00FFA8",
+    "kGraphMaxValue" : 250,
+    "kGraphValue" : 120,
+    "kGraphTitle" : "Second value"
+  },
+  {
+    "kGraphColor" : "#ffb745",
+    "kGraphMaxValue" : 250,
+    "kGraphValue" : 250,
+    "kGraphTitle" : "Third value"
+  }
+]</string>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THIRD GRAPHIC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgR-2y-eMm">
+                                        <rect key="frame" x="20" y="978" width="560" height="19.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sm6-zC-Tmp" customClass="ASCGraphView">
+                                        <rect key="frame" x="20" y="1007" width="560" height="150"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="ATj-Jl-pih"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iGraphViewType">
+                                                <integer key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="sInformation">
+                                                <string key="value">[
+  {
+    "kGraphColor" : "#00FFA8",
+    "kGraphMaxValue" : 250,
+    "kGraphValue" : 250,
+    "kGraphTitle" : "First value"
+  },
+  {
+    "kGraphColor" : "#ffb745",
+    "kGraphMaxValue" : 250,
+    "kGraphValue" : -120,
+    "kGraphTitle" : "Second value"
+  },
+  {
+    "kGraphColor" : "#00FFA8",
+    "kGraphMaxValue" : 250,
+    "kGraphValue" : 60,
+    "kGraphTitle" : "Third value"
+  }
+]</string>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="sm6-zC-Tmp" firstAttribute="leading" secondItem="QL9-Xa-wZ9" secondAttribute="leading" constant="20" id="2q4-QH-I9S"/>
+                                    <constraint firstAttribute="trailing" secondItem="bs1-jP-JzR" secondAttribute="trailing" constant="20" id="4eo-Fm-p2e"/>
+                                    <constraint firstItem="4Gk-Sn-vGp" firstAttribute="leading" secondItem="QL9-Xa-wZ9" secondAttribute="leading" constant="20" id="7Kp-ii-oK5"/>
+                                    <constraint firstItem="sm6-zC-Tmp" firstAttribute="width" secondItem="4Xl-0a-eDA" secondAttribute="width" id="8G0-OE-Mfn"/>
+                                    <constraint firstAttribute="bottom" secondItem="sm6-zC-Tmp" secondAttribute="bottom" constant="20" id="9aO-1T-jhP"/>
+                                    <constraint firstAttribute="trailing" secondItem="wgR-2y-eMm" secondAttribute="trailing" constant="20" id="ARQ-HA-EIo"/>
+                                    <constraint firstItem="4Xl-0a-eDA" firstAttribute="top" secondItem="bs1-jP-JzR" secondAttribute="bottom" constant="20" id="CY9-wn-256"/>
+                                    <constraint firstItem="sm6-zC-Tmp" firstAttribute="top" secondItem="wgR-2y-eMm" secondAttribute="bottom" constant="10" id="ETw-79-JkE"/>
+                                    <constraint firstItem="4Xl-0a-eDA" firstAttribute="width" secondItem="IEI-pV-8pB" secondAttribute="width" id="Eyq-Of-zeS"/>
+                                    <constraint firstAttribute="trailing" secondItem="4Xl-0a-eDA" secondAttribute="trailing" constant="20" id="N9y-iI-Zzg"/>
+                                    <constraint firstItem="IEI-pV-8pB" firstAttribute="top" secondItem="4Gk-Sn-vGp" secondAttribute="bottom" constant="20" id="WVr-TZ-kfn"/>
+                                    <constraint firstItem="4Xl-0a-eDA" firstAttribute="leading" secondItem="QL9-Xa-wZ9" secondAttribute="leading" constant="20" id="gLo-Sd-9dE"/>
+                                    <constraint firstItem="bs1-jP-JzR" firstAttribute="leading" secondItem="QL9-Xa-wZ9" secondAttribute="leading" constant="20" id="hTO-1e-3ll"/>
+                                    <constraint firstItem="wgR-2y-eMm" firstAttribute="top" secondItem="4Xl-0a-eDA" secondAttribute="bottom" constant="200" id="mCk-ij-oDy"/>
+                                    <constraint firstAttribute="trailing" secondItem="4Gk-Sn-vGp" secondAttribute="trailing" constant="20" id="psh-WV-HcK"/>
+                                    <constraint firstItem="wgR-2y-eMm" firstAttribute="leading" secondItem="QL9-Xa-wZ9" secondAttribute="leading" constant="20" id="rYO-Km-fdX"/>
+                                    <constraint firstItem="IEI-pV-8pB" firstAttribute="leading" secondItem="QL9-Xa-wZ9" secondAttribute="leading" constant="20" id="uX4-BF-8FP"/>
+                                    <constraint firstItem="bs1-jP-JzR" firstAttribute="top" secondItem="IEI-pV-8pB" secondAttribute="bottom" constant="200" id="ubK-x5-Brh"/>
+                                    <constraint firstItem="4Gk-Sn-vGp" firstAttribute="top" secondItem="QL9-Xa-wZ9" secondAttribute="top" constant="100" id="xOf-Vf-dah"/>
+                                    <constraint firstAttribute="trailing" secondItem="IEI-pV-8pB" secondAttribute="trailing" constant="20" id="xo4-O0-cVP"/>
+                                    <constraint firstAttribute="trailing" secondItem="sm6-zC-Tmp" secondAttribute="trailing" constant="20" id="xsv-Kb-1GA"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="3MG-LY-LlX"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QL9-Xa-wZ9" secondAttribute="bottom" id="0pm-Vw-Mzv"/>
+                            <constraint firstAttribute="trailing" secondItem="QL9-Xa-wZ9" secondAttribute="trailing" id="YAs-Nb-Y5h"/>
+                            <constraint firstItem="QL9-Xa-wZ9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="aPS-Hj-8km"/>
+                            <constraint firstItem="QL9-Xa-wZ9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tpZ-zy-fbT"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="1500"/>
+                    <connections>
+                        <outlet property="firstGraphView" destination="IEI-pV-8pB" id="NqE-hJ-I9U"/>
+                        <outlet property="scrollView" destination="QL9-Xa-wZ9" id="eTc-yy-suN"/>
+                        <outlet property="secondGraphView" destination="4Xl-0a-eDA" id="SgM-xk-B5a"/>
+                        <outlet property="thirdGraphView" destination="sm6-zC-Tmp" id="cMU-WY-mew"/>
+                        <outlet property="widthGraphViews" destination="ZEq-o0-Rt5" id="XlO-XT-JbG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="246" y="325"/>
+        </scene>
+    </scenes>
+</document>
